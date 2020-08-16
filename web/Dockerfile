@@ -10,7 +10,4 @@ RUN yarn install
 
 COPY . .
 
-# Optionally, copy your .env file to the container filesystem
-COPY .env .
-
 CMD ["gatsby", "develop", "-H", "0.0.0.0"]
